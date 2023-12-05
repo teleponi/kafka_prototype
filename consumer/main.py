@@ -15,7 +15,6 @@ conf = {
     "group.id": "foo",
     "auto.offset.reset": "smallest",
 }
-import confluent_kafka
 
 consumer = Consumer(conf)
 
