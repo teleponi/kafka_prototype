@@ -14,7 +14,7 @@ Das Projekt kann geklont und lokal gestartet werden. Dazu muss Docker auf dem lo
 
 Docker Container starten (dazu muss docker-compose lokal installiert sein)
 
-    docker-compose -up --build 
+    docker-compose up --build 
 
 Wenn der Cluster und Zookeeper hochgefahren sind, sieht man in der Konsole die Ausgabe des Kafka-Consumers,
 der die Sensordaten ausgibt. Das Hochfahren kann gut 3 bis 4 Minuten dauern.
