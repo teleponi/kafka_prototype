@@ -16,6 +16,7 @@ import time
 from datetime import datetime
 from confluent_kafka import Producer
 
+
 conf = {
     "bootstrap.servers": "kafka:9092",
     "client.id": socket.gethostname(),

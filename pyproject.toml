@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "kafka-example"
+version = "0.1.0"
+description = "Ein Beispiel eines Kafka-Producers und Consumers mit Zookeeper"
+authors = ["Bernd Fischer"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+confluent-kafka = "^2.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
